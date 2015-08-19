@@ -1,0 +1,84 @@
+@prefix owl:		<http://www.w3.org/2002/07/owl#> .
+@prefix foaf:   	<http://xmlns.com/foaf/0.1/> .
+@prefix oo:     	<http://purl.org/openorg/> .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+@prefix geo:    	<http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix skos:   	<http://www.w3.org/2004/02/skos/core#> .
+@prefix org:    	<http://www.w3.org/ns/org#> .
+@prefix xtypes: 	<http://purl.org/xtypes/> .
+@prefix lyou:   	<http://purl.org/linkingyou/> .
+@prefix vcard:  	<http://www.w3.org/2006/vcard/ns#> .
+
+<> a oo:OrganizationProfileDocument ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    foaf:primaryTopic <http://id.learning-provider.data.ac.uk/ukprn/10007803> .
+
+<http://id.learning-provider.data.ac.uk/ukprn/10007803> a org:FormalOrganization ;
+    skos:prefLabel "University of St Andrews" ;
+    skos:hiddenLabel "St Andrews University" ;
+    vcard:sortLabel "St Andrews, University of" ;
+    foaf:phone <tel:+441334476161> ;
+    foaf:logo <https://upload.wikimedia.org/wikipedia/en/6/61/University_of_St_Andrews_coat_of_arms.svg> ;
+    foaf:homepage <http://www.st-andrews.ac.uk> ;
+    owl:sameAs <http://id.learning-provider.data.ac.uk/ukprn/10007803> ;
+	owl:sameAs <http://dbpedia.org/resource/University_of_St_Andrews> ;
+	owl:sameAs <http://gtr.rcuk.ac.uk:80/organisation/C0E4FAD2-3C8B-410A-B6DF-3B9B9E433060> ;
+    foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/University_of_St_Andrews> ;
+	foaf:based_near <http://id.learning-provider.data.ac.uk/ukprn/10007803#based_near_point> ;
+	vcard:adr <http://id.learning-provider.data.ac.uk/ukprn/10007803#address> ;
+	foaf:account <https://www.facebook.com/uniofsta> ;
+	foaf:account <https://twitter.com/univofstandrews> ;
+	foaf:account <http://instagram.com/uniofstandrews> ;
+	foaf:account <http://www.linkedin.com/company/15683> ;
+	foaf:account <http://www.pinterest.com/uniofstandrews> ;
+	foaf:account <http://vimeo.com/user20577780> ;
+	foaf:account <https://www.youtube.com/user/UofStAndrews> ;
+	lyou:about <https://www.st-andrews.ac.uk/about/> ;
+    lyou:events <https://www.st-andrews.ac.uk/events/> ;
+    lyou:undergraduate <https://www.st-andrews.ac.uk/study/ug/> ;
+	lyou:postgraduate <https://www.st-andrews.ac.uk/study/pg/> ;
+    lyou:international-students <https://www.st-andrews.ac.uk/study/international/> .
+
+<http://id.learning-provider.data.ac.uk/ukprn/10007803#based_near_point> a <geo:Point> ;
+	geo:lat 56.341205 ;
+	geo:long -2.793016 .
+
+<http://id.learning-provider.data.ac.uk/ukprn/10007803#address>
+	a vcard:Address ;
+	vcard:postal-code "KY16 9AJ" ;
+	vcard:country-name "United Kingdom" ;
+    vcard:street-address "College Gate, North Street" ;
+    vcard:locality "St Andrews" .
+
+<https://www.facebook.com/uniofsta> a foaf:OnlineAccount ;
+    foaf:accountName "uniofsta" ;
+    foaf:accountServiceHomepage <https://www.facebook.com/> .
+
+<https://twitter.com/univofstandrews> a foaf:OnlineAccount ;
+    foaf:accountName "univofstandrews" ;
+    foaf:accountServiceHomepage <https://twitter.com/> .
+
+<http://instagram.com/uniofstandrews/> a foaf:OnlineAccount ;
+    foaf:accountName "uniofstandrews" ;
+    foaf:accountServiceHomepage <http://instagram.com/> .
+
+<http://www.linkedin.com/company/15683> a foaf:OnlineAccount ;
+    foaf:accountName "15683" ;
+    foaf:accountServiceHomepage <http://www.linkedin.com/> .
+
+<http://www.pinterest.com/uniofstandrews/> a foaf:OnlineAccount ;
+    foaf:accountName "uniofstandrews" ;
+    foaf:accountServiceHomepage <http://www.pinterest.com/> .
+
+<http://vimeo.com/user20577780> a foaf:OnlineAccount ;
+    foaf:accountName "user20577780" ;
+    foaf:accountServiceHomepage <http://vimeo.com/> .
+
+<https://www.youtube.com/user/UofStAndrews> a foaf:OnlineAccount ;
+    foaf:accountName "UofStAndrews" ;
+    foaf:accountServiceHomepage <https://www.youtube.com/> .
+
+<http://www.st-andrews.ac.uk/rss/news/index.xml> a <http://purl.org/xtypes/Document-RSS> ;
+    oo:organization <http://id.learning-provider.data.ac.uk/ukprn/10007803> ;
+    dcterms:subject <http://purl.org/openorg/theme/news> ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> .
