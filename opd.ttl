@@ -17,7 +17,7 @@
     skos:prefLabel "University of St Andrews" ;
     skos:hiddenLabel "St Andrews University" ;
     vcard:sortLabel "St Andrews, University of" ;
-    foaf:phone <tel:+441334476161> ; #TODO: Add an email address - recommended field, but no single address listed on contacts page
+    foaf:phone <tel:+441334476161> ; #TODO:1 Add an email address - recommended field, but no single address listed on contacts page
     foaf:logo <https://upload.wikimedia.org/wikipedia/en/6/61/University_of_St_Andrews_coat_of_arms.svg> ;
     foaf:homepage <http://www.st-andrews.ac.uk> ;
     owl:sameAs <http://id.learning-provider.data.ac.uk/ukprn/10007803> ;
@@ -38,7 +38,7 @@
     lyou:undergraduate <https://www.st-andrews.ac.uk/study/ug/> ;
 	lyou:postgraduate <https://www.st-andrews.ac.uk/study/pg/> ;
     lyou:international-students <https://www.st-andrews.ac.uk/study/international/> .
-    #TODO: Add more linking-you pages
+    #TODO:2 Add more linking-you pages
 
 <http://id.learning-provider.data.ac.uk/ukprn/10007803#based_near_point> a <geo:Point> ;
 	geo:lat 56.341205 ;
@@ -59,7 +59,7 @@
     foaf:accountName "univofstandrews" ;
     foaf:accountServiceHomepage <https://twitter.com/> .
 
-<http://instagram.com/uniofstandrews/> a foaf:OnlineAccount ; #TODO: Why are details of this account not displaying correctly in http://opd.data.ac.uk/checker?
+<http://instagram.com/uniofstandrews/> a foaf:OnlineAccount ; #TODO:3 Why are details of this account not displaying correctly in http://opd.data.ac.uk/checker?
     foaf:accountName "uniofstandrews" ;
     foaf:accountServiceHomepage <http://instagram.com/> .
 
@@ -67,7 +67,7 @@
     foaf:accountName "15683" ;
     foaf:accountServiceHomepage <http://www.linkedin.com/> .
 
-<http://www.pinterest.com/uniofstandrews/> a foaf:OnlineAccount ; #TODO: Why are details of this account not displaying correctly in http://opd.data.ac.uk/checker?
+<http://www.pinterest.com/uniofstandrews/> a foaf:OnlineAccount ; #TODO:4 Why are details of this account not displaying correctly in http://opd.data.ac.uk/checker?
     foaf:accountName "uniofstandrews" ;
     foaf:accountServiceHomepage <http://www.pinterest.com/> .
 
