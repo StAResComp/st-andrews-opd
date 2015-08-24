@@ -1,3 +1,8 @@
+# Draft OPD for the University of St Andrews
+# Written by Patrick McCann, Research Computing, The Library
+# Based on documentation at http://opd.data.ac.uk
+# August 2015
+
 @prefix owl:		<http://www.w3.org/2002/07/owl#> .
 @prefix foaf:   	<http://xmlns.com/foaf/0.1/> .
 @prefix oo:     	<http://purl.org/openorg/> .
@@ -18,7 +23,7 @@
     skos:hiddenLabel "St Andrews University" ;
     vcard:sortLabel "St Andrews, University of" ;
     foaf:phone <tel:+441334476161> ; #TODO:1 Add an email address - recommended field, but no single address listed on contacts page
-    foaf:logo <https://upload.wikimedia.org/wikipedia/en/6/61/University_of_St_Andrews_coat_of_arms.svg> ;
+    foaf:logo <https://upload.wikimedia.org/wikipedia/en/6/61/University_of_St_Andrews_coat_of_arms.svg> ; #TODO:5 Is there a better (University-hosted?) image?
     foaf:homepage <http://www.st-andrews.ac.uk> ;
     owl:sameAs <http://id.learning-provider.data.ac.uk/ukprn/10007803> ;
 	owl:sameAs <http://dbpedia.org/resource/University_of_St_Andrews> ;
