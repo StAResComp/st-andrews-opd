@@ -23,7 +23,7 @@
     skos:hiddenLabel "St Andrews University" ;
     vcard:sortLabel "St Andrews, University of" ;
     foaf:phone <tel:+441334476161> ; #TODO:1 Add an email address - recommended field, but no single address listed on contacts page
-    foaf:logo <https://upload.wikimedia.org/wikipedia/en/6/61/University_of_St_Andrews_coat_of_arms.svg> ; #TODO:5 Is there a better (University-hosted?) image?
+    foaf:logo <https://www.st-andrews.ac.uk/~cdn/dpl/0.3.1/images/furniture/logo-foundation.svg> ;
     foaf:homepage <http://www.st-andrews.ac.uk> ;
     owl:sameAs <http://id.learning-provider.data.ac.uk/ukprn/10007803> ;
 	owl:sameAs <http://dbpedia.org/resource/University_of_St_Andrews> ;
