@@ -1,7 +1,7 @@
 # Draft OPD for the University of St Andrews
 # Written by Patrick McCann, Research Computing, The Library
 # Based on documentation at http://opd.data.ac.uk
-# August 2015
+# October 2015
 
 @prefix owl:		<http://www.w3.org/2002/07/owl#> .
 @prefix foaf:   	<http://xmlns.com/foaf/0.1/> .
@@ -38,12 +38,50 @@
 	foaf:account <http://www.pinterest.com/uniofstandrews> ;
 	foaf:account <http://vimeo.com/user20577780> ;
 	foaf:account <https://www.youtube.com/user/UofStAndrews> ;
-	lyou:about <https://www.st-andrews.ac.uk/about/> ;
-    lyou:events <https://www.st-andrews.ac.uk/events/> ;
-    lyou:undergraduate <https://www.st-andrews.ac.uk/study/ug/> ;
-	lyou:postgraduate <https://www.st-andrews.ac.uk/study/pg/> ;
-    lyou:international-students <https://www.st-andrews.ac.uk/study/international/> .
-    #TODO:2 Add more linking-you pages
+    lyou:business <http://www.st-andrews.ac.uk/business-services> ;
+    lyou:depts <http://www.st-andrews.ac.uk/about/governance> ;
+    lyou:about <https://www.st-andrews.ac.uk/about> ;
+    lyou:events <https://www.st-andrews.ac.uk/events> ;
+    lyou:search <http://www.st-andrews.ac.uk/search> ;
+    lyou:press <http://www.st-andrews.ac.uk/pressoffice> ;
+    lyou:news <http://www.st-andrews.ac.uk/news> ;
+    lyou:jobs <https://www.vacancies.st-andrews.ac.uk> ;
+    lyou:contact <http://www.st-andrews.ac.uk/contacts> ;
+    lyou:about-leader <http://www.st-andrews.ac.uk/about/governance/key-officials/principal> ;
+    lyou:about-executive <http://www.st-andrews.ac.uk/about/governance/key-officials> ;
+    lyou:legal-data-protection <http://www.st-andrews.ac.uk/dataprot> ;
+    lyou:legal-environment <http://www.st-andrews.ac.uk/environment/importantinfo/sustainabledevelopmentpolicies> ;
+    lyou:legal-equality <http://www.st-andrews.ac.uk/hr/edi/equalityschemeandpolicies/equalitypolicy> ;
+    lyou:legal-foi <http://www.st-andrews.ac.uk/foi> ;
+    lyou:legal-ict <http://www.st-andrews.ac.uk/staff/policy/computer> ;
+    lyou:legal-website <http://www.st-andrews.ac.uk/terms> ;
+    lyou:contact-staff <http://www.st-andrews.ac.uk/contacts> ;
+    lyou:ict-support <http://www.st-andrews.ac.uk/itsupport/help/itservicedesk> ;
+    lyou:research <http://www.st-andrews.ac.uk/research> ;
+    lyou:legal-ethics <http://www.st-andrews.ac.uk/utrec/guidelinespolicies> ;
+    lyou:business-ktp <http://www.st-andrews.ac.uk/ktc> ;
+    lyou:academic-depts <http://www.st-andrews.ac.uk/schools> ;
+    lyou:support-depts <http://www.st-andrews.ac.uk/administration> ;
+    lyou:conference-facilities <http://www.st-andrews.ac.uk/business-services/conferences> ;
+    lyou:courses <http://www.st-andrews.ac.uk/courses/search> ;
+    lyou:undergraduate <https://www.st-andrews.ac.uk/study/ug> ;
+    lyou:undergraduate-courses <http://www.st-andrews.ac.uk/courses/search> ;
+    lyou:undergraduate-courses-entry-requirements <http://www.st-andrews.ac.uk/study/entrance-requirements> ;
+    lyou:undergraduate-prospectus <http://www.st-andrews.ac.uk/study/ug/prospectus> ;
+	lyou:postgraduate <https://www.st-andrews.ac.uk/study/pg> ;
+    lyou:postgraduate-taught <http://www.st-andrews.ac.uk/study/pg/options/taught> ;
+    lyou:postgraduate-taught-courses <http://www.st-andrews.ac.uk/study/pg/options/taught/programmes> ;
+    lyou:postgraduate-taught-courses-entry-requirements <http://www.st-andrews.ac.uk/study/pg/apply/taught> ;
+    lyou:postgraduate-taught-prospectus <http://www.st-andrews.ac.uk/study/pg/prospectus/taught> ;
+    lyou:postgraduate-research <http://www.st-andrews.ac.uk/study/pg/options/research> ;
+    lyou:postgraduate-research-courses <http://www.st-andrews.ac.uk/study/pg/options/research> ;
+    lyou:postgraduate-research-courses-entry-requirements <http://www.st-andrews.ac.uk/study/pg/apply/research> ;
+    lyou:postgraduate-research-prospectus <http://www.st-andrews.ac.uk/study/pg/prospectus/research> ;
+    lyou:opendays <http://www.st-andrews.ac.uk/study/ug/meet-us/visiting-days> ;
+    lyou:events-graduation <http://www.st-andrews.ac.uk/graduation> ;
+    lyou:about-parents <http://www.st-andrews.ac.uk/parents> ;
+    lyou:international-students <https://www.st-andrews.ac.uk/study/international> ;
+    lyou:uk-ico-publication-scheme <http://www.st-andrews.ac.uk/foi> .
 
 <http://id.learning-provider.data.ac.uk/ukprn/10007803#based_near_point> a <geo:Point> ;
 	geo:lat 56.341205 ;
