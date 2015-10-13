@@ -64,7 +64,7 @@
     foaf:accountName "univofstandrews" ;
     foaf:accountServiceHomepage <https://twitter.com/> .
 
-<http://instagram.com/uniofstandrews/> a foaf:OnlineAccount ; #TODO:3 Why are details of this account not displaying correctly in http://opd.data.ac.uk/checker?
+<http://instagram.com/uniofstandrews> a foaf:OnlineAccount ;
     foaf:accountName "uniofstandrews" ;
     foaf:accountServiceHomepage <http://instagram.com/> .
 
@@ -72,7 +72,7 @@
     foaf:accountName "15683" ;
     foaf:accountServiceHomepage <http://www.linkedin.com/> .
 
-<http://www.pinterest.com/uniofstandrews/> a foaf:OnlineAccount ; #TODO:4 Why are details of this account not displaying correctly in http://opd.data.ac.uk/checker?
+<http://www.pinterest.com/uniofstandrews> a foaf:OnlineAccount ;
     foaf:accountName "uniofstandrews" ;
     foaf:accountServiceHomepage <http://www.pinterest.com/> .
 
