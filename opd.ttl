@@ -1,7 +1,7 @@
-# Draft OPD for the University of St Andrews
+# OPD for the University of St Andrews
 # Written by Patrick McCann, Research Computing, The Library
 # Based on documentation at http://opd.data.ac.uk
-# October 2015
+# January 2016
 
 @prefix owl:		<http://www.w3.org/2002/07/owl#> .
 @prefix foaf:   	<http://xmlns.com/foaf/0.1/> .
@@ -81,7 +81,14 @@
     lyou:events-graduation <http://www.st-andrews.ac.uk/graduation> ;
     lyou:about-parents <http://www.st-andrews.ac.uk/parents> ;
     lyou:international-students <https://www.st-andrews.ac.uk/study/international> ;
-    lyou:uk-ico-publication-scheme <http://www.st-andrews.ac.uk/foi> .
+    lyou:uk-ico-publication-scheme <http://www.st-andrews.ac.uk/foi> ;
+    lyou:research-funders-policies <http://www.st-andrews.ac.uk/staff/research/data/planning> ;
+    lyou:research-data-management-planning <http://www.st-andrews.ac.uk/staff/research/data> ;
+    lyou:research-data-active-storage <http://www.st-andrews.ac.uk/staff/research/data/storage/active> ;
+    lyou:research-data-catalogue <https://risweb.st-andrews.ac.uk> ;
+    lyou:research-data-policy <http://www.st-andrews.ac.uk/staff/policy/research/researchdata> ;
+    lyou:research-data-access <http://www.st-andrews.ac.uk/staff/research/data/protection/accesscontrol> ;
+    lyou:research-data-secure-access <http://www.st-andrews.ac.uk/staff/research/data/protection/accesscontrol> .
 
 <http://id.learning-provider.data.ac.uk/ukprn/10007803#based_near_point> a <geo:Point> ;
     geo:lat 56.341205 ;
@@ -127,7 +134,7 @@
     dcterms:subject <http://purl.org/openorg/theme/news> ;
     dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> .
 
-<http://arts.st-andrews.ac.uk/opd/equipment.csv>
+<http://www.st-andrews.ac.uk/opd/equipment.csv>
     oo:organization <http://id.learning-provider.data.ac.uk/ukprn/10007803> ;
     oo:corrections <mailto:research-data@st-andrews.ac.uk> ;
     oo:contact <mailto:research-data@st-andrews.ac.uk> ;
