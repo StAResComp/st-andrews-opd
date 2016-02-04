@@ -140,7 +140,7 @@
     oo:contact <mailto:research-data@st-andrews.ac.uk> ;
     dcterms:subject <http://purl.org/openorg/theme/Facilities> ;
     dcterms:conformsTo <http://equipment.data.ac.uk/uniquip> ;
-    dcterms:license <http://creativecommons.org/licenses/by/4.0> .
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0> .
 
 <https://risweb.st-andrews.ac.uk/ws/oai>
     dcterms:conformsTo <http://www.openarchives.org/OAI/openarchivesprotocol.html> ;
