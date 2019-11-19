@@ -23,7 +23,7 @@
     skos:hiddenLabel "St Andrews University" ;
     vcard:sortLabel "St Andrews, University of" ;
     foaf:phone <tel:+441334476161> ; #TODO:1 Add an email address - recommended field, but no single address listed on contacts page
-    foaf:logo <https://www.st-andrews.ac.uk/~cdn/dpl/0.3.1/images/furniture/logo-foundation.svg> ;
+    foaf:logo <https://www.st-andrews.ac.uk/~cdn/dpl/1.21.1/images/furniture/logo-foundation.svg> ;
     foaf:homepage <http://www.st-andrews.ac.uk> ;
     owl:sameAs <http://id.learning-provider.data.ac.uk/ukprn/10007803> ;
     owl:sameAs <http://dbpedia.org/resource/University_of_St_Andrews> ;
@@ -129,12 +129,12 @@
     foaf:accountName "UofStAndrews" ;
     foaf:accountServiceHomepage <https://www.youtube.com/> .
 
-<http://www.st-andrews.ac.uk/rss/news/index.xml> a <http://purl.org/xtypes/Document-RSS> ;
+<https://news.st-andrews.ac.uk/feed> a <http://purl.org/xtypes/Document-RSS> ;
     oo:organization <http://id.learning-provider.data.ac.uk/ukprn/10007803> ;
     dcterms:subject <http://purl.org/openorg/theme/news> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> .
 
-<http://www.st-andrews.ac.uk/opd/equipment.csv>
+<https://arts.st-andrews.ac.uk/opd/equipment.csv>
     oo:organization <http://id.learning-provider.data.ac.uk/ukprn/10007803> ;
     oo:corrections <mailto:research-data@st-andrews.ac.uk> ;
     oo:contact <mailto:research-data@st-andrews.ac.uk> ;
